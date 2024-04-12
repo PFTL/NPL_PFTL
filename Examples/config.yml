@@ -3,7 +3,7 @@ User:
 
 DAQ:
   port: "/dev/cu.usbmodem11101"
-  model: "Real"  # Or Real
+  model: "Dummy"  # Or Real
 
 Monitor:
   channel_in: 0
