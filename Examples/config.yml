@@ -1,0 +1,23 @@
+User:
+  name: "Aquiles"
+
+DAQ:
+  port: "/dev/cu.usbmodem11101"
+  model: "Real"  # Or Real
+
+Monitor:
+  channel_in: 0
+  delay: 0.1 # in seconds
+  length: 500 # data points
+
+Scan:
+  channel_out: 0
+  channel_in: 0
+  start: 0
+  stop: 3.3
+  step: 0.1
+
+Data:
+  folder: "/Users/aquiles/Data"
+  filename: "data.csv"
+  metadata_filename: "meta.yml"
